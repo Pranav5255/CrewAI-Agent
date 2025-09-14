@@ -162,7 +162,7 @@ class LatestAiDevelopmentCrew():
 ```
 **7) Set your environment variables**
 Before running your crew, make sure you have the following keys set as environment variables in your .env file:
-- A Serper.dev API key: SERPER_API_KEY=YOUR_KEY_HERE
+- A [Serper.dev](https://serper.dev/ "Serper.dev") API key: SERPER_API_KEY=YOUR_KEY_HERE
 - The configuration for your choice of model, such as an API key. See the LLM setup guide to learn how to configure models from any provider.
 
 **8) Lock and install the dependencies**
