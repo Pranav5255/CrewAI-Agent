@@ -221,3 +221,18 @@ Before running your crew, make sure you have the following keys set as environme
   ```
 
 **10) You can check the output in the `report.md`**
+---
+### 📑 Report Highlights: Key Directions in LLMs (2025 and Beyond)
+
+This report highlights the major directions shaping Large Language Models:
+
+- **Multimodal LLMs** – Integration of text, images, audio, and video for richer applications.  
+- **Advanced Reasoning** – Stronger problem-solving via chain-of-thought prompting and external knowledge.  
+- **Explainable AI** – Improved transparency with attention maps, saliency analysis, and counterfactuals.  
+- **Ethics & Safety** – Bias mitigation, toxicity filtering, and responsible AI practices.  
+- **Personalization** – Adaptive, user-specific experiences through federated learning and feedback loops.  
+- **Efficiency** – Reduced costs and energy usage with pruning, quantization, and distillation.  
+- **Industry Adoption** – Transformative use cases in healthcare, finance, education, and the arts.  
+- **Open-Source & Decentralization** – Democratizing access and fostering community-driven innovation.  
+- **Few-/Zero-Shot Learning** – Lower data dependency for broader applicability.  
+- **Hybrid AI Approaches** – Combining LLMs with symbolic reasoning and knowledge graphs.  
