@@ -219,3 +219,5 @@ Before running your crew, make sure you have the following keys set as environme
   ```
   crewai run
   ```
+
+**10) You can check the output in the `report.md`**
