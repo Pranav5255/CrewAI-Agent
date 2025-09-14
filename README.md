@@ -5,7 +5,7 @@
    ```
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
-If your system doesn’t have `curl`, you can use `wget`:
+   If your system doesn’t have `curl`, you can use `wget`:
    ```
    wget -qO- https://astral.sh/uv/install.sh | sh
    ```
