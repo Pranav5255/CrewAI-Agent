@@ -2,17 +2,17 @@
 ## Installation Guide
 1) **Install uv**
 - **On macOS/Linux:** Use `curl` to download the script and execute it with `sh`:
-```
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+   ```
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
 If your system doesn’t have `curl`, you can use `wget`:
-```
-wget -qO- https://astral.sh/uv/install.sh | sh
-```
+   ```
+   wget -qO- https://astral.sh/uv/install.sh | sh
+   ```
 - **On Windows:** Use irm to download the script and iex to execute it:
-```
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+   ```
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+   ```
 
 2) Install CrewAI 🚀
    Run the following command to install `crewai` CLI:
@@ -164,3 +164,15 @@ class LatestAiDevelopmentCrew():
 Before running your crew, make sure you have the following keys set as environment variables in your .env file:
 - A Serper.dev API key: SERPER_API_KEY=YOUR_KEY_HERE
 - The configuration for your choice of model, such as an API key. See the LLM setup guide to learn how to configure models from any provider.
+
+**8) Lock and install the dependencies**
+
+- Lock the dependencies and install them by using the CLI command:
+  ```
+  crewai install
+  ```
+**9) Run your crew**
+- To run your crew, execute the following command in the root of your project:
+  ```
+  crewai run
+  ```
