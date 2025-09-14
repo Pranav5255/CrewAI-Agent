@@ -32,6 +32,49 @@ Create a new crew project by running the following command in your terminal. Thi
 ```
 crewai create crew crew-agent
 ```
+Upon running this command, you'll get the following output:
+```
+Creating folder crew_agent...
+Select a provider to set up:
+1. openai
+2. anthropic
+3. gemini
+4. nvidia_nim
+5. groq
+6. huggingface
+7. ollama
+8. watson
+9. bedrock
+10. azure
+11. cerebras
+12. sambanova
+13. other
+q. Quit
+Enter the number of your choice or 'q' to quit: <select-the-gemini-provider>
+
+```
+After selecting the option with gemini:
+```
+Select a model to use for Gemini:
+1. gemini/gemini-1.5-flash
+2. gemini/gemini-1.5-pro
+3. gemini/gemini-2.0-flash-lite-001
+4. gemini/gemini-2.0-flash-001
+5. gemini/gemini-2.0-flash-thinking-exp-01-21
+6. gemini/gemini-2.5-flash-preview-04-17
+7. gemini/gemini-2.5-pro-exp-03-25
+8. gemini/gemini-gemma-2-9b-it
+9. gemini/gemini-gemma-2-27b-it
+10. gemini/gemma-3-1b-it
+11. gemini/gemma-3-4b-it
+12. gemini/gemma-3-12b-it
+13. gemini/gemma-3-27b-it
+q. Quit
+Enter the number of your choice or 'q' to quit: 1
+Enter your GEMINI API key from https://ai.dev/apikey (press Enter to skip):
+```
+
+You can generate an API key for the agent from [Gemini's API Dashboard](https://aistudio.google.com/ "Gemini-API-Dashboard")
 
 **2) Navigate to your new crew project**
 ```
